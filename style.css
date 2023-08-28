@@ -1,0 +1,45 @@
+.sidebar, .main, .listArea, .footer{
+    outline: 1px solid black;
+    background-color: burlywood;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.main {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.listArea {
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex-grow: 1;
+}
+
+.listInput {
+    height: 30px;
+    width: 500px;
+    align-self: center;
+}
+
+.toDoItems {
+    flex-grow: 1;
+    padding: 20px;
+}
+
